@@ -1,4 +1,6 @@
 
+
+/* funcion para el carrusel*/
 $(function(){
     $('#slider div:gt(0)').hide();
     setInterval(function(){
