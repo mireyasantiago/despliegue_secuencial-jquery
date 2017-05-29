@@ -1,0 +1,12 @@
+/* Creacion de estilos para las imagenes */
+
+#slider {
+position: relative;
+overflow: hidden;
+width: 500px;
+height: 300px;
+border:10px solid #333;
+border-radius: 40px;
+margin: 0 auto;
+padding: 0;
+}
