@@ -67,8 +67,29 @@ position: relative;
 overflow: hidden;
 width: 500px;
 height: 300px;
-border:10px solid #333;
-border-radius: 40px;
+border:5px solid #A52A2A;
+border-radius: 20px;
 margin: 0 auto;
 padding: 0;
+}
+
+/* Estilos de botones ------------------------------------*/
+
+#boton--siguiente, #boton--anterior{
+  width: 25px;
+  height: 25px;
+  background: rbga(200, 200, 200, 0.5)
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  border-radius: 50%;
+  transform: translate(-50%);
+
+}
+
+#boton--anterior {
+  left: 10px;
+}
+#boton--siguiente {
+  right: 10px;
 }
